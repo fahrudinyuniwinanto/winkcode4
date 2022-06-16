@@ -1,0 +1,166 @@
+CRITICAL - 2022-03-14 01:40:51 --> Trying to get property 'ikk' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\rumus\index_rumus.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('rumus/index_rum...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Rumus.php(61): view('rumus/index_rum...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Rumus->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumus))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-14 01:45:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on aa
+		inner join' at line 1
+CRITICAL - 2022-03-14 01:45:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on aa
+		inner join' at line 1
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(40): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->output()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-14 01:45:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on aa
+		inner join' at line 1
+CRITICAL - 2022-03-14 01:45:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on aa
+		inner join' at line 1
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(40): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-14 01:48:38 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#2 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(46): view('laporan/index_l...', Array)
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 01:49:00 --> Undefined variable: y
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(46): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 01:49:11 --> Undefined variable: y
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(46): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 01:49:26 --> Undefined variable: y
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(46): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 02:39:51 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(53): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 02:40:23 --> Undefined index: PENDIDIKAN
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(53): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 02:40:49 --> Trying to get property 'sub_urusan' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(53): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 03:43:24 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(53): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 03:45:39 --> Undefined variable: no2
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(53): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 03:45:53 --> Undefined variable: no2
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\index_laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(53): view('laporan/index_l...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 03:58:42 --> Unsupported operand types
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index_l...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/index_l...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->list()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-14 22:26:27 --> Trying to get property 'ikk' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\rumus\index_rumus.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('rumus/index_rum...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Rumus.php(61): view('rumus/index_rum...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Rumus->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumus))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

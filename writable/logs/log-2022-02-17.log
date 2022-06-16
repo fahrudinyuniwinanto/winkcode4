@@ -1,0 +1,11 @@
+CRITICAL - 2022-02-17 01:43:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\lppd\app\Views\syuser\read_sy_user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('syuser/read_sy_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SyUser.php(82): view('syuser/read_sy_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SyUser->read('assets', 'img', 'user-2.jpg')
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SyUser))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

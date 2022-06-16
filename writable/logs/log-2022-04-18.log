@@ -1,0 +1,147 @@
+CRITICAL - 2022-04-18 20:43:05 --> Cannot use App\Models\SubUrusanModel as SubUrusanModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-18 20:47:21 --> Cannot use App\Models\SubUrusanModel as SubUrusanModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-18 20:54:01 --> Array to string conversion
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 20:55:06 --> Array to string conversion
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 20:55:16 --> Undefined index: Tingkat partisipasi warga negara usia 5-6 tahun yang berpartisipasi dalam PAUD
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 20:55:31 --> Array to string conversion
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 20:58:45 --> Trying to get property 'sub_urusan' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 21:08:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 21:09:12 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 21:11:23 --> Undefined property: stdClass::$capaian_kinerja
+#0 C:\xampp\htdocs\lppd\app\Views\laporan\output_keluaran.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/output_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(54): view('laporan/output_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-18 21:17:08 --> Table 'lppd.kategori' doesn't exist
+CRITICAL - 2022-04-18 21:17:08 --> Table 'lppd.kategori' doesn't exist
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(39): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outputKeluaran()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 21:40:56 --> Table 'lppd.kategori' doesn't exist
+CRITICAL - 2022-04-18 21:40:56 --> Table 'lppd.kategori' doesn't exist
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from u...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(62): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outcomeHasil()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 21:41:29 --> Unknown column 'ee.nama' in 'field list'
+CRITICAL - 2022-04-18 21:41:29 --> Unknown column 'ee.nama' in 'field list'
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select *,ee.nam...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select *,ee.nam...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select *,ee.nam...')
+#3 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(62): CodeIgniter\Database\BaseConnection->query('select *,ee.nam...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outcomeHasil()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 21:41:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outcomeHasil()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 21:42:28 --> Undefined variable: arr
+#0 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outcomeHasil()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 21:59:04 --> Undefined variable: arr
+#0 C:\xampp\htdocs\lppd\app\Controllers\Laporan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->outcomeHasil()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

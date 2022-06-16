@@ -1,0 +1,282 @@
+CRITICAL - 2022-02-24 19:59:29 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:02:14 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:02:25 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:06:18 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:06:20 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:13:41 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:14:00 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:21:18 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 20:21:29 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\lppd\app\Controllers\Urusan.php on line 162
+#0 C:\xampp\htdocs\lppd\app\Controllers\Urusan.php(162): CodeIgniter\Database\BaseBuilder->like('urusan', NULL)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->getCombo()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-24 20:35:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'urusan' at line 1
+CRITICAL - 2022-02-24 20:35:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'urusan' at line 1
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select urusan f...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select urusan f...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select urusan f...')
+#3 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): CodeIgniter\Database\BaseConnection->query('select urusan f...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#7 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#8 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#9 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#10 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-02-24 20:37:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'urusan' at line 1
+CRITICAL - 2022-02-24 20:37:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'urusan' at line 1
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select urusan f...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select urusan f...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select urusan f...')
+#3 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): CodeIgniter\Database\BaseConnection->query('select urusan f...')
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#7 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#8 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#9 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#10 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-24 20:38:01 --> Undefined variable: id_urusan
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 20:38:19 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): form_dropdown('id_urusan', Array, Array, ' class="form-co...')
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 20:56:37 --> Illegal string offset ''
+#0 C:\xampp\htdocs\lppd\app\Helpers\wf_helper.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): getCombo('urusan', 'id', 'urusan')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#5 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#8 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-24 20:56:44 --> [] operator not supported for strings
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): getCombo('urusan', 'id', 'urusan')
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 21:35:11 --> Undefined index: concat(urusan,output_outcome) as nama
+#0 C:\xampp\htdocs\lppd\app\Helpers\wf_helper.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): getCombo('urusan', 'id', 'concat(urusan,o...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#5 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#8 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-24 21:35:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as name from urusan' at line 1
+CRITICAL - 2022-02-24 21:35:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as name from urusan' at line 1
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select id,conca...', 0)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select id,conca...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select id,conca...')
+#3 C:\xampp\htdocs\lppd\app\Helpers\wf_helper.php(30): CodeIgniter\Database\BaseConnection->query('select id,conca...')
+#4 C:\xampp\htdocs\lppd\app\Views\suburusan\form_sub_urusan.php(24): getCombo('urusan', 'id', 'concat(urusan,o...')
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/form_...', Array, true)
+#8 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(87): view('suburusan/form_...', Array)
+#9 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->create()
+#10 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#11 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-24 21:46:44 --> Undefined property: CodeIgniter\View\View::$UrusanModel
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\index_sub_urusan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 21:47:46 --> Undefined property: CodeIgniter\View\View::$UrusanModel
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\index_sub_urusan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 21:50:02 --> Undefined property: CodeIgniter\View\View::$UrusanModel
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\index_sub_urusan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 21:56:19 --> Call to undefined method CodeIgniter\View\View::getRowUrusan()
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 21:56:38 --> Call to undefined method CodeIgniter\View\View::getRowUrusan()
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 21:58:33 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 22:03:33 --> Call to a member function getRow() on array
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 22:03:42 --> Trying to get property 'urusan' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\index_sub_urusan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 22:04:04 --> Trying to get property 'urusan' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\index_sub_urusan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 22:05:23 --> Trying to get property 'urusan' of non-object
+#0 C:\xampp\htdocs\lppd\app\Views\suburusan\index_sub_urusan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#4 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#7 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-24 22:06:24 --> Call to a member function find() on string
+#0 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('suburusan/index...', Array, true)
+#3 C:\xampp\htdocs\lppd\app\Controllers\SubUrusan.php(68): view('suburusan/index...', Array)
+#4 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\SubUrusan->index()
+#5 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubUrusan))
+#6 C:\xampp\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

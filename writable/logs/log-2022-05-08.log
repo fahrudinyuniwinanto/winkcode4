@@ -1,0 +1,197 @@
+CRITICAL - 2022-05-08 20:46:53 -->  route cannot be found while reverse-routing.
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\laragon\htdocs\lppd\app\Controllers\Admin.php(10): redirect('wf/login')
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 20:47:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-08 20:50:59 --> Trying to get property 'group_name' of non-object
+#0 D:\laragon\htdocs\lppd\app\Controllers\Wf.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\htdo...', 60, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Wf->login_action()
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wf))
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-08 21:44:54 --> Undefined variable: content
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\src_makro.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\htdo...', 13, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/s...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(86): view('laporan/makro/s...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->srcMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 21:56:45 --> Undefined variable: data
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\prin_makro.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\htdo...', 22, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(94): view('laporan/makro/p...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 22:02:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id asc' at line 1
+CRITICAL - 2022-05-08 22:02:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id asc' at line 1
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-08 22:02:26 --> Undefined property: stdClass::$no
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\prin_makro.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\htdo...', 25, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(95): view('laporan/makro/p...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 22:03:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from makro order by id asc' at line 1
+CRITICAL - 2022-05-08 22:03:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from makro order by id asc' at line 1
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select distinct...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select distinct...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-08 22:03:19 --> Expression #1 of ORDER BY clause is not in SELECT list, references column 'lppd.makro.id' which is not in SELECT list; this is incompatible with DISTINCT
+CRITICAL - 2022-05-08 22:03:19 --> Expression #1 of ORDER BY clause is not in SELECT list, references column 'lppd.makro.id' which is not in SELECT list; this is incompatible with DISTINCT
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select distinct...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select distinct...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-08 22:03:40 --> Expression #1 of ORDER BY clause is not in SELECT list, references column 'lppd.makro.id' which is not in SELECT list; this is incompatible with DISTINCT
+CRITICAL - 2022-05-08 22:03:40 --> Expression #1 of ORDER BY clause is not in SELECT list, references column 'lppd.makro.id' which is not in SELECT list; this is incompatible with DISTINCT
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select distinct...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select distinct...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-08 22:04:12 --> Expression #1 of ORDER BY clause is not in SELECT list, references column 'lppd.makro.id' which is not in SELECT list; this is incompatible with DISTINCT
+CRITICAL - 2022-05-08 22:04:12 --> Expression #1 of ORDER BY clause is not in SELECT list, references column 'lppd.makro.id' which is not in SELECT list; this is incompatible with DISTINCT
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select distinct...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select distinct...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-08 22:04:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from makro order by id asc' at line 1
+CRITICAL - 2022-05-08 22:04:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from makro order by id asc' at line 1
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select distinct...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select distinct...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-08 22:05:30 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lppd.makro.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-05-08 22:05:30 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lppd.makro.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(92): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-08 22:06:21 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lppd.makro.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-05-08 22:06:21 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lppd.makro.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from m...', 0)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(93): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-08 22:17:12 --> syntax error, unexpected '}'
+#0 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#2 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(96): view('laporan/makro/p...', Array)
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#4 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 22:19:06 --> Undefined variable: theikk
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\prin_makro.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\htdo...', 23, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(96): view('laporan/makro/p...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 22:21:07 --> Trying to get property 'capaian_kinerja' of non-object
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\prin_makro.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\htdo...', 33, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(96): view('laporan/makro/p...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 22:21:23 --> Trying to get property 'capaian_kinerja' of non-object
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\prin_makro.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\htdo...', 34, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(96): view('laporan/makro/p...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 22:24:28 --> Trying to get property 'capaian_kinerja' of non-object
+#0 D:\laragon\htdocs\lppd\app\Views\laporan\makro\prin_makro.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\htdo...', 34, Array)
+#1 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#2 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/makro/p...', Array, true)
+#4 D:\laragon\htdocs\lppd\app\Controllers\Laporan.php(96): view('laporan/makro/p...', Array)
+#5 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Laporan->prinMakroBappeda()
+#6 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 D:\laragon\htdocs\lppd\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\lppd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
