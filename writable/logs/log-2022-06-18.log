@@ -1,0 +1,176 @@
+ERROR - 2022-06-18 02:04:25 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-18 02:04:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\htdocs\winkcode4\app\Helpers\wf_helper.php(6): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#2 D:\laragon\htdocs\winkcode4\app\Views\welcome_message.php(6): wfApp()
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#4 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 D:\laragon\htdocs\winkcode4\app\Controllers\Home.php(13): view('welcome_message')
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#8 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-18 02:05:22 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-18 02:05:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\htdocs\winkcode4\app\Helpers\wf_helper.php(6): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#2 D:\laragon\htdocs\winkcode4\app\Views\welcome_message.php(6): wfApp()
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#4 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 D:\laragon\htdocs\winkcode4\app\Controllers\Home.php(13): view('welcome_message')
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#8 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-18 02:05:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-18 02:05:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\htdocs\winkcode4\app\Helpers\wf_helper.php(6): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#2 D:\laragon\htdocs\winkcode4\app\Views\welcome_message.php(6): wfApp()
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\htdo...')
+#4 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 D:\laragon\htdocs\winkcode4\app\Controllers\Home.php(13): view('welcome_message')
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#8 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-18 02:09:54 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:09:54 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(21): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:10:40 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:10:40 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(21): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:10:59 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:10:59 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(21): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:11:17 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:11:17 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(21): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:11:27 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:11:27 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(21): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:12:01 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:12:01 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(21): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:12:38 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:12:38 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(22): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:12:43 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:12:43 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(22): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:12:55 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:12:55 --> Table 'winkcode4.urusan' doesn't exist
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\laragon\htdocs\winkcode4\app\Controllers\Admin.php(22): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-18 02:13:15 --> Table 'winkcode4.urusan' doesn't exist
+ERROR - 2022-06-18 02:13:15 --> Table 'winkcode4.sub_urusan' doesn't exist
+ERROR - 2022-06-18 02:13:15 --> Table 'winkcode4.ikk' doesn't exist
+ERROR - 2022-06-18 02:13:15 --> Table 'winkcode4.rumus' doesn't exist
+ERROR - 2022-06-18 02:13:15 --> Table 'winkcode4.sub_urusan' doesn't exist
+ERROR - 2022-06-18 02:13:15 --> Table 'winkcode4.makro' doesn't exist
+ERROR - 2022-06-18 02:13:25 --> Table 'winkcode4.urusan' doesn't exist
+ERROR - 2022-06-18 02:13:25 --> Table 'winkcode4.urusan' doesn't exist
+CRITICAL - 2022-06-18 02:13:25 --> Call to a member function getResult() on bool
+#0 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+#1 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(5, 0)
+#2 D:\laragon\htdocs\winkcode4\app\Controllers\Urusan.php(49): CodeIgniter\BaseModel->paginate(5)
+#3 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Urusan->index()
+#4 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urusan))
+#5 D:\laragon\htdocs\winkcode4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\htdocs\winkcode4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-18 02:13:27 --> Table 'winkcode4.urusan' doesn't exist
+ERROR - 2022-06-18 02:13:27 --> Table 'winkcode4.sub_urusan' doesn't exist
+ERROR - 2022-06-18 02:13:27 --> Table 'winkcode4.ikk' doesn't exist
+ERROR - 2022-06-18 02:13:27 --> Table 'winkcode4.rumus' doesn't exist
+ERROR - 2022-06-18 02:13:27 --> Table 'winkcode4.sub_urusan' doesn't exist
+ERROR - 2022-06-18 02:13:27 --> Table 'winkcode4.makro' doesn't exist

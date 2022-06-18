@@ -13,6 +13,7 @@ class Admin extends BaseController
 
     public function index()
     {
+        // \error_reporting(0);
         $counter = [
             'urusan' => [
                 'color' => 'green',
